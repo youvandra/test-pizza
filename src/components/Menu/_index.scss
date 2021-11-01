@@ -1,0 +1,53 @@
+.menu-purchase {
+    max-width: 500px;
+    min-height: 300px;
+    height: -moz-fit-content;
+    height: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    padding: 30px;
+    border: 1px white solid;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    @media (max-width: 524px) {
+        margin: 20px !important;
+    }
+    &__box {
+        p {
+            font-size: 30px;
+            font-weight: 600;
+            font-family: "Fira Code", monospace;
+        }
+        h1 {
+            font-size: 60px;
+            font-weight: 600;
+            font-family: "Fira Code", monospace;
+            padding: 0px;
+            margin: 0px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            padding: 5px;
+            margin: 5px;
+            font-family: "Fira Code", monospace;
+        }
+    }
+    &__btn {
+        margin-top: 20px !important;
+        width: 100%;
+        background-color: orange;
+        height: 40px;
+        border-radius: 10px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__btn:hover {
+        background-color: white;
+        color: orange;
+        border: 2px solid orange;
+    }
+}
